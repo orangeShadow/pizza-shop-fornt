@@ -35,7 +35,7 @@ class HomePage extends Component {
           <Page name="home">
             {/* Top Navbar */}            
             <TopMenu />
-            <BlockTitle className="text-align-center"><h1 >Pizza for every taste!</h1></BlockTitle>
+            <BlockTitle className="text-align-center"><h1 >Pizza for any taste!</h1></BlockTitle>
             <Block>
               <Row>
                 {
