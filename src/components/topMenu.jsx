@@ -53,7 +53,7 @@ class TopMenu extends Component {
                     user===null ? <MenuItem key="login-link" iconIos="f7:person" iconAurora="f7:person" iconMd="material:person" loginScreenOpen="#my-login-screen"></MenuItem>:<MenuItem bgColor="transparent" key='order-list-link' link={true} href="/orders" text="Order list"></MenuItem>
                   }                       
                   <MenuItem text={currency} dropdown>
-                  <MenuDropdown left>
+                  <MenuDropdown right>
                     <MenuDropdownItem onClick={()=>{changeCurrency('EUR')}} text="EUR" />
                     <MenuDropdownItem onClick={()=>{changeCurrency('USD')}} text="USD" />
                   </MenuDropdown>
