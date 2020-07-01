@@ -1,5 +1,5 @@
 export default {
-  apiUrl: `http://localhost:8000/api`,  
+  apiUrl: `http://tpizzaback.herokuapp.com/api`,  
   /**
    * product list
    */
